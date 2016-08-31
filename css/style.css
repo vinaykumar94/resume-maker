@@ -1,0 +1,150 @@
+
+.hero{
+  padding-top:50px;
+  margin-top: 80px;
+  margin-left: 120px;
+  font-family:'Lato';
+  font-size:2.9em;
+  font-weight: 500;
+}
+.join{
+  padding-top: 25px;
+  margin-left:180px;
+  font-family: 'Ubuntu';
+  font-size: 2em;
+  font-weight: 300;
+  line-height:45px;
+}
+.button{
+  margin-left:300px;
+  margin-top: 200px; 
+}
+.jumbotron{
+background-color: #0c88d4;
+background-image: url(
+  "https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+color:#ECECEA;
+}
+.start{
+  font-family: 'Lato',sans-serif;
+  font-size: 2.5em;
+  letter-spacing:0.15em;
+}
+.header{
+  font-family: 'Lato',sans-serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  color: white;
+
+}
+.logo {
+  font-size: 1.7em;
+  padding-top: 15px;
+}
+.lead{
+  font-family: 'Ubuntu',sans-serif;
+}
+.butn{
+   margin-left:470px;
+   margin-top: 20px; 
+}
+.sma{
+  color:#0c88d4;
+}
+.foot{
+  margin-left: 470px;
+}
+.style{
+  color:#0c88d4;
+}
+.resume{
+  letter-spacing: 0.1em;
+  font-family:'Lato',sans-serif;
+  font-weight: 500;
+  font-size: 2.4em;
+}
+.panel{
+  border-style: solid;
+  border-color-left:#0c88d4;
+}
+.maker{
+  margin-left: 35px
+}
+.resume{
+  margin-top: 40px;
+ 
+}
+/*Tablet devices responsive using media*/
+@media only screen and (min-width:768px) and (max-width:960px){
+ .button{
+  margin-top: 15px;
+  margin-left: 320px;
+ }
+ .resume{
+  margin-left: 250px;
+
+ }
+ .hero{
+  margin-top: 25px;
+  margin-left: 180px;
+ }
+ .butn{
+  margin-left: 250px;
+ }
+ .sma{
+  display:none;
+ }
+ .foot{
+  margin-left: 45px;
+ }
+}
+/*smaller tablets because my nav button coming down*/
+@media only screen and (min-width:570px) and (max-width:767px){
+ .button{
+  margin-top: 25px;
+  margin-left: 180px;
+ }
+ .resume{
+  margin-left: 150px;
+ }
+ .join{
+  margin-left: 90px;
+ }
+ .hero{
+  margin-left: 80px;
+ }
+ .butn{
+  margin-left: 150px;
+ }
+.sma{
+  display: none;
+}
+.foot{
+  margin-left: 35px;
+  margin-top: 25px;
+}
+}
+/*smart phones */
+@media only screen and (min-width:240px) and (max-width:569px){
+   .hero{
+    margin-top: 15px;
+    margin-left: 25px;
+   }
+   .resume{
+    display: none;
+   }
+   .join{
+    margin-top: 10px;
+    margin-left: 15px;
+   }
+   .button{
+    margin-left: 20px;
+    margin-top: 25px;
+   }
+   .butn{
+    margin-left: 15px;
+   }
+   .foot{
+    margin-left: 25px;
+   }
+  }
